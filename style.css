@@ -1,0 +1,130 @@
+@font-face{
+    font-family: 'Open-sans',sans-serif;
+    src: url(./fonts/OpenSans-Regular.woff);
+    font-weight: 700;
+}
+@font-face{
+    font-family: 'Open-sans',sans-serif;
+    src: url(./fonts/OpenSans-Bold.woff2);
+    font-weight: 700;
+}
+@font-face{
+    font-family: 'Open-sans',sans-serif;
+    src: url(./fonts/OpenSans-Regular.woff);
+    font-weight: 400;
+}
+@font-face{
+    font-family: 'Open-sans',sans-serif;
+    src: url(./fonts/OpenSans-Regular.woff2);
+    font-weight: 400;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Open-Sans'sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    box-shadow: 0px 4px 20px 0px #0000001A;
+}
+.list{
+    display: flex;
+    gap: 40px;
+}
+.link{
+    font-size: 15px;
+    color:black ;
+    transition: 0.4s ease-in-out;
+}
+.link:hover{
+    color: grey;
+
+}
+.tel{
+    color: white;
+    background-color: #00BAFC;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #00BAFC;
+    transition: 0.4s ease-in-out;
+}
+.tel:hover{
+    background-color: white;
+    color: #00BAFC;
+}
+/* ======navbar end==== */
+
+/* =====hero start=== */
+.hero{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+}
+.hero-content{
+    width: 470px;
+    height: 241px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.hero-titile{
+    font-size: 30px;
+    line-height: 39px;
+    font-weight: 700px;
+}
+.hero-text{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400px;
+}
+/* ============header end========== */
+
+.main-title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+margin-top: 80px;
+}
+.main-text{
+width: 900px;
+text-align: center;
+margin: 20px auto;
+}
+
+.card:hover{
+border: 2px solid white;
+box-shadow: 5px 12px 12px 4px ;
+}
+
+.card-wrapper{
+    width: 1225px;
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    transition: 0.4s ease-in-out;
+    gap: 50px;
+    margin: 0 auto;
+}
+.card{
+    width: 300px;
+    height: 230px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+.main-link{
+    
+}
+
